@@ -1,9 +1,7 @@
-# Egghead Lesson: creating smart and presentation components
+Repository for my egghead course
 
-This is a WIP for my first Egghead lesson on creating smart and presentation components.
+## Create Smart Components with Angular
 
-## Create smart and presentational components
+[Create Smart Components with Angular](https://egghead.io/lessons/angular-create-smart-components-with-angular)
 
-### Description
-
-In this lesson you will learn the basics to create smart and presentational components. Smart and presentational components are a basic design concept of angular applications and will help you to implement your appliaction in a structured and maintainable way.
+![instructor-medium-5@2x.png](.github/instructor-medium-5@2x.png)
