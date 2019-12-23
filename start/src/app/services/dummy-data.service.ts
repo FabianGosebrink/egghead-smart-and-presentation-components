@@ -1,8 +1,7 @@
-import { Observable } from 'rxjs/Observable';
-import { of } from 'rxjs/observable/of';
 import { Injectable } from '@angular/core';
+import { Observable, of } from 'rxjs';
 
-@Injectable()
+@Injectable({ providedIn: 'root' })
 export class DummyDataService {
   getData(): Observable<string[]> {
     return of(['Phil', 'Mike', 'Peter']);

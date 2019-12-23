@@ -1,13 +1,11 @@
-import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
-import { DummyDataService } from './services/dummy-data.service';
 
 @NgModule({
   declarations: [AppComponent],
   imports: [BrowserModule],
-  providers: [DummyDataService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule {}
